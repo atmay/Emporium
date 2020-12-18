@@ -1,5 +1,5 @@
 """
-WSGI config for dns project.
+WSGI config for emporium project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dns.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'emporium.settings')
 
 application = get_wsgi_application()
