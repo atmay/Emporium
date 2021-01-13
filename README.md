@@ -1,4 +1,4 @@
-# The Emporium: Mock E-Shop :shopping_cart:
+# The Emporium: A Mock E-Shop :shopping_cart:
 E-commerce project created out of curiosity
 
 What it has:
