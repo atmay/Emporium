@@ -1,5 +1,5 @@
-# The Emporium: A Mock E-Shop :shopping_cart:
-An E-commerce project created out of curiosity
+# :shopping_cart: The Emporium: A Mock E-Shop 
+An E-commerce Django project created out of curiosity
 
 ### What it has:
 - Main page / categories / product pages
@@ -12,10 +12,12 @@ An E-commerce project created out of curiosity
 
 ### How to install:
 - clone this repo 
-- create virtual environment python3 -m venv -venv
-- install requirments (pip install -r requirements.txt)
-- deal with migrations (python manage.py migrate)
-- run server (python manage.py runserver)
+- create virtual environment ```python3 -m venv -venv```
+- install requirments ```pip install -r requirements.txt```
+- make sure you are in the same folder where file ```manage.py``` is
+- I used built-in DB SQL Lite but if you want to use some other DB make sure it is properly configured in ```settings.py```
+- deal with migrations ```python manage.py migrate```
+- run server ```python manage.py runserver```
 
 ### What was used:
 - Python 3
